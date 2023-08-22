@@ -12,7 +12,7 @@ soma_numeros = 0
 contador_numeros = 0
 
 
-numero = float(input("Digite um número real (ou -1 para encerrar:)"))
+numero = float(input("Digite um número real ( -1 encerra o programa):"))
 
 while numero != -1:
 
@@ -26,7 +26,7 @@ while numero != -1:
     contador_numeros += 1
 
 
-    numero = float(input("Digite outro número real (ou -1 para encerrar): "))
+    numero = float(input("Digite outro número real (-1 encerra o programa ): "))
 
 
 if contador_numeros > 0:
